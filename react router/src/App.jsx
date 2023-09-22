@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Blue from "./components/Blue";
 import Red from "./components/Red";
-import Home from "./components/Home";
+import Home from "./Home";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div id="navbar">
         <Link to="/blue"> blue </Link>
         <Link to="/red">red</Link>
-        <Link to="/">Home</Link>
+        <Link to="/Home">Home</Link>
       </div>
       <div id="main-section">
         <Routes>
